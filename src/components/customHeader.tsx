@@ -1,7 +1,6 @@
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable react-native/no-inline-styles */
-import ProfileHeader from './header';
-
+import ProfileHeader from './ProfileHeader';
 import {GoogleSignin} from '@react-native-google-signin/google-signin';
 import React, {useEffect} from 'react';
 import {
@@ -12,13 +11,13 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import {Button} from 'react-native-elements';
 import {useFocusEffect} from '@react-navigation/native';
 import {Alert, View} from 'react-native';
-import {Signout} from '../caretaker/common/allIcons';
+import {Signout} from './caretaker/allIcons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import styles from './componentStyles/componentStyles';
-
-
-
+import styles from './componentStyles/styles';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Logger from './logger';
 const CustomHeader = props => {
+   
   React.useEffect(() => {
     GoogleSignin.configure({
       webClientId:
@@ -26,39 +25,40 @@ const CustomHeader = props => {
     });
   });
   const [loggedin, loggedinstate] = React.useState(true);
+  
   async function getuser() {
     try {
       const isllooged = await GoogleSignin.isSignedIn();
       const checkforlogin = await AsyncStorage.getItem('user_id');
 
-      console.log(isllooged);
+      Logger.loggerInfo(isllooged);
 
       if (checkforlogin !== null) {
-        console.log(isllooged);
+        Logger.loggerInfo(isllooged);
         loggedinstate(true);
         return;
       }
 
       loggedinstate(false);
     } catch (err) {}
-  }
+  } 
+  
   useEffect(() => {
-    const unsubscribe = props.navigation.addListener('focus', () => {
+    return props.navigation.addListener('focus', () => {
       getuser();
     });
-    return unsubscribe;
   }, [props.navigation]);
-  useFocusEffect(() => {
-    console.log('f');
+  
+  useFocusEffect(() => { 
+    Logger.loggerWarn('f');
     getuser();
   });
   return (
-    <>
-      <DrawerContentScrollView
-        style={styles.drawer}>
+    <><SafeAreaProvider>
+      <DrawerContentScrollView style={styles.drawer}>
         <TouchableOpacity
           style={styles.touch}
-          onPress={() => props.navigation.getParent().navigate('Profile')}>
+          onPress={ () => props.navigation.getParent().navigate('Profile')}>
           {<ProfileHeader></ProfileHeader>}
         </TouchableOpacity>
         <DrawerItemList {...props}></DrawerItemList>
@@ -86,7 +86,7 @@ const CustomHeader = props => {
                 buttonStyle={styles.button}
                 titleStyle={styles.buttonTitle}
                 containerStyle={styles.buttonContainer}
-                onPress={async () => {
+                onPress={async () => { 
                   props.navigation.navigate('Login');
                 }}
               />
@@ -119,13 +119,14 @@ const CustomHeader = props => {
                   },
                   {
                     text: 'Cancel',
-                    onPress: () => {},
+                    onPress: () => undefined,
                   },
                 ]);
               }}></Button>
           )}
         </View>
       </DrawerContentScrollView>
+      </SafeAreaProvider>
     </>
   );
 };

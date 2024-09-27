@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": "100%",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+        "top": 40,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../assests/images/noImages.png",
+        }
+      }
+      style={
+        Object {
+          "width": 250,
+        }
+      }
+    />
+  </View>
+</View>
+`;

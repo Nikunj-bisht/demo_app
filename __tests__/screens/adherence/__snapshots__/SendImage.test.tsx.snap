@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settins Screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": "100%",
+      "padding": 20,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    onLayout={[Function]}
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+    testID="toastAnimatedContainer"
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "borderLeftColor": "#69C779",
+          "borderLeftWidth": 5,
+          "borderRadius": 6,
+          "elevation": 2,
+          "flexDirection": "row",
+          "height": 60,
+          "opacity": 1,
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 6,
+          "width": 340,
+        }
+      }
+      testID="toastTouchableContainer"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": 25,
+            },
+            undefined,
+          ]
+        }
+        testID="toastContentContainer"
+      />
+    </View>
+  </View>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    transparent={true}
+    visible={false}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "margin": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#242424",
+          "fontWeight": "900",
+        }
+      }
+    >
+      Image
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 3,
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 3,
+          },
+          undefined,
+          false,
+        ]
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "busy": false,
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#2089dc",
+              "borderColor": "#2089dc",
+              "borderRadius": 3,
+              "borderWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 18,
+                "paddingVertical": 1,
+                "textAlign": "center",
+              }
+            }
+          >
+            Share
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": Object {
+          "image_uri": Object {},
+        },
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 20,
+        "height": "60%",
+        "width": "100%",
+      }
+    }
+  />
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#242424",
+              "marginLeft": 8,
+            }
+          }
+        >
+          Select Medicine
+        </Text>
+        <RCTScrollView
+          horizontal={true}
+          showsHorizontalScrollIndicator={true}
+        >
+          <View />
+        </RCTScrollView>
+      </View>
+      <View
+        style={
+          Object {
+            "padding": 50,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 3,
+              },
+              Object {
+                "marginTop": 25,
+              },
+              false,
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "busy": false,
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "hsl(208, 8%, 90%)",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 3,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "hsl(208, 8%, 63%)",
+                    "fontSize": 18,
+                    "paddingVertical": 1,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Send
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

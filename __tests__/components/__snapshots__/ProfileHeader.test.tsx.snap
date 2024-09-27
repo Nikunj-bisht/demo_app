@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#3743ab",
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "marginBottom": 20,
+      "padding": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://i.stack.imgur.com/l60Hf.png",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 70,
+        "height": 100,
+        "marginBottom": 9,
+        "width": 100,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 8,
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      View and edit profile
+    </Text>
+  </View>
+</View>
+`;

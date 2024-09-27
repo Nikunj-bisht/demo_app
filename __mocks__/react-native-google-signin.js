@@ -1,0 +1,1 @@
+export {default} from '@react-native-google-signin/google-signin/jest/google-signin-mock'

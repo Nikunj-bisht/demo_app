@@ -1,0 +1,695 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        collapsable={false}
+        onLayout={[Function]}
+        onMoveShouldSetResponder={[Function]}
+        onMoveShouldSetResponderCapture={[Function]}
+        onResponderEnd={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderReject={[Function]}
+        onResponderRelease={[Function]}
+        onResponderStart={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateY": 0,
+              },
+            ],
+          }
+        }
+        testID="toastAnimatedContainer"
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderLeftColor": "#69C779",
+              "borderLeftWidth": 5,
+              "borderRadius": 6,
+              "elevation": 2,
+              "flexDirection": "row",
+              "height": 60,
+              "opacity": 1,
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 6,
+              "width": 340,
+            }
+          }
+          testID="toastTouchableContainer"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 25,
+                },
+                undefined,
+              ]
+            }
+            testID="toastContentContainer"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "flexDirection": "column",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3743ab",
+              "borderBottomLeftRadius": 30,
+              "borderBottomRightRadius": 30,
+              "justifyContent": "center",
+              "marginBottom": 12,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://i.stack.imgur.com/l60Hf.png",
+              }
+            }
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderColor": "white",
+                "borderRadius": 83,
+                "borderWidth": 4,
+                "height": 100,
+                "marginBottom": 10,
+                "marginTop": 30,
+                "width": 100,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "marginBottom": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Not logged in!
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "borderRadius": 3,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                false,
+              ]
+            }
+          >
+            <View
+              accessibilityRole="button"
+              accessibilityState={
+                Object {
+                  "busy": false,
+                  "disabled": false,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#3743ab",
+                    "borderColor": "#2089dc",
+                    "borderRadius": 30,
+                    "borderWidth": 0,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "padding": 8,
+                    "width": "48%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "fontSize": 18,
+                      "paddingVertical": 1,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Edit profile
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View>
+          <View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "marginLeft": 8,
+                  "marginTop": 10,
+                  "width": "95%",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "FontAwesome5Free-Regular",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontWeight": "400",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "FontAwesome5Free-Solid",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "Octicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                     yrs
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "FontAwesome5Free-Solid",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                     kg
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "Ionicons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "FontAwesome5Free-Solid",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontWeight": "900",
+                        },
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "lightgrey",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "padding": 15,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#3743ab",
+                          "fontSize": 18,
+                        },
+                        undefined,
+                        Object {
+                          "fontFamily": "Entypo",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 17,
+                      }
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

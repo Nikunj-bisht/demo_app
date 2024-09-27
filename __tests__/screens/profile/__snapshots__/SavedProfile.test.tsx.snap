@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "marginLeft": 8,
+      "marginTop": 10,
+      "width": "95%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome5Free-Regular",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "fontWeight": "400",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome5Free-Solid",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "fontWeight": "900",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Octicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+         yrs
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome5Free-Solid",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "fontWeight": "900",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+         kg
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome5Free-Solid",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "fontWeight": "900",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "lightgrey",
+        "flex": 1,
+        "flexDirection": "row",
+        "marginBottom": 12,
+        "marginLeft": 0,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": "#3743ab",
+              "fontSize": 18,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Entypo",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 17,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

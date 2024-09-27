@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flexDirection": "column",
+      "height": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginLeft": 18,
+              "paddingLeft": 15,
+              "paddingTop": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                Object {
+                  "backgroundColor": "#999",
+                  "borderRadius": 26,
+                  "height": 52,
+                  "width": 52,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 52,
+                    "width": 26,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "borderBottomRightRadius": 0,
+                      "borderTopRightRadius": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#00bcd4",
+                      "borderRadius": 26,
+                      "height": 52,
+                      "overflow": "hidden",
+                      "transform": Array [
+                        Object {
+                          "translateX": 13,
+                        },
+                        Object {
+                          "rotate": "0deg",
+                        },
+                        Object {
+                          "translateX": -13,
+                        },
+                      ],
+                      "width": 26,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                  },
+                  Object {
+                    "height": 52,
+                    "width": 26,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "borderBottomRightRadius": 0,
+                      "borderTopRightRadius": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#999",
+                      "borderRadius": 26,
+                      "height": 52,
+                      "overflow": "hidden",
+                      "transform": Array [
+                        Object {
+                          "translateX": 13,
+                        },
+                        Object {
+                          "rotate": "0deg",
+                        },
+                        Object {
+                          "translateX": -13,
+                        },
+                      ],
+                      "width": 26,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "backgroundColor": "#fff",
+                    "borderRadius": 23,
+                    "height": 46,
+                    "width": 46,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#4dd0e1",
+                    "fontSize": 15,
+                  }
+                }
+              >
+                0%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "paddingLeft": 30,
+              "paddingTop": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Overall Performance Till Date
+          </Text>
+          <Text>
+            You have some active reminders.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingBottom": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4dd0e1",
+              "fontWeight": "700",
+            }
+          }
+        >
+          CHECK PERFORMANCE
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "lightgrey",
+        "marginBottom": 5,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontWeight": "600",
+        }
+      }
+    >
+      Reminders
+    </Text>
+  </View>
+  <RCTScrollView
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../assests/images/noreminders.png",
+        }
+      }
+      style={
+        Object {
+          "width": 250,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "position": "absolute",
+        "right": 10,
+      }
+    }
+  />
+</View>
+`;

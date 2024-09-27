@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click send image renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "height": "100%",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      indeterminateAnimationDuration={1000}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "overflow": "hidden",
+          },
+          undefined,
+        ]
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={80}
+        bbWidth={80}
+        collapsable={false}
+        focusable={false}
+        height={80}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "rotate": "0deg",
+                },
+              ],
+            },
+            Object {
+              "flex": 0,
+              "height": 80,
+              "width": 80,
+            },
+          ]
+        }
+        width={80}
+      >
+        <RNSVGGroup
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M40 0.5
+          A39.5 39.5 0 1 1 16.782482534447304 8.04382872218958"
+            propList={
+              Array [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+              ]
+            }
+            stroke={4278221567}
+            strokeLinecap={0}
+            strokeWidth={1}
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <Text>
+      Fetching User Details
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About App renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../assests/images/Medstick_1.png",
+        }
+      }
+      style={
+        Object {
+          "height": 466.9,
+          "width": 750,
+        }
+      }
+      testID="aboutImg"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginTop": 30,
+          "paddingLeft": 4,
+        }
+      }
+      testID="aboutText"
+    >
+      Medicine Adherence app which allows user to use medicine, reminder, caretaker, patient, report and more features and never skip their medications.
+    </Text>
+  </View>
+</View>
+`;

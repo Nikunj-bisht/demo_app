@@ -1,12 +1,9 @@
 import SQLite from 'react-native-sqlite-storage';
-
+SQLite.enablePromise(true);
 function globalDb() {
-  const db = SQLite.openDatabase({
+ return SQLite.openDatabase({
     name: 'MedStickdb',
     location: 'default',
   });
-
-  return db;
 }
-
 export default globalDb;
